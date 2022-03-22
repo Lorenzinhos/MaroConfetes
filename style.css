@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,700&family=Oswald:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Kufam", sans-serif;
+}
+
+@keyframes fadein {
+from { opacity: 0;}
+to{opacity: 1;}
+}
+
+body {
+  background-color: #181818;
+  color: #fff;
+  animation: fadein 6s;
+}
+#topo {
+  font-family: "Kufam", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+#topo span {
+  color: red;
+}
+#banner {
+  display: flex;
+}
+#banner img {
+  width: 550px;
+  height:300px;
+  border-radius:20px ;
+}
+#texto h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+#texto {
+  padding-right: 30px;
+}
+#texto h3 span{
+  color: #f52929;
+}
+#texto button {
+  background-color: #4745c9;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 20px;
+  transition: transform 0.2s;
+ 
+}
+#texto button:hover {
+  background-color: #222192;
+  transform: scale(1.1);
+}
